@@ -10,10 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
+     <App />
     <CartHeader/>
-    <CartFooter/>
     <CartItems/>
+    <CartFooter year= "2016" />
   </React.StrictMode>,
   document.getElementById('root')
 );

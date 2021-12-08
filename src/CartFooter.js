@@ -2,12 +2,12 @@
 
 
 
-function CartFooter() {
+function CartFooter(props) {
 
     return (
 
         <nav className="navbar navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">&copy; 2018</a>
+        <a className="navbar-brand" href="#">&copy; {props.year} </a>
         </nav>
     );
 
