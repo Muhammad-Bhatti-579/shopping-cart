@@ -4,17 +4,15 @@ import './index.css';
 import App from './App';
 import CartHeader from './CartHeader';
 import CartFooter from './CartFooter';
-import CartItems from './CartItems';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(
-  <React.StrictMode>
-     <App />
+  <>
     <CartHeader/>
-    <CartItems/>
-    <CartFooter year= "2016" />
-  </React.StrictMode>,
+    <App />
+    <CartFooter year= "2021" />
+  </>,
   document.getElementById('root')
 );
 
